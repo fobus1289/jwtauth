@@ -1,0 +1,22 @@
+{
+    "name": "xotam/uzbauth",
+    "type":    "library",
+    "license": "MIT",
+    "description": "jwt auth!",
+    "minimum-stability": "alpha",
+    "version": "1.0",
+    "keywords": [
+        "uzb",
+        "jwt",
+        "php",
+        "auth"
+    ],
+    "require": {
+        "ext-json": "*",
+        "php": "^7.4",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
